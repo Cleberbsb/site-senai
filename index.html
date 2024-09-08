@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <!-- Menu de Cabeçalho -->
+        <header class="center">
+            <div class="logo">
+                <img src="img/SENAI-EMPRESA-transp.png" alt="Logo da Instituição">
+            </div> <!--logo-->
+
+              <div class="menu">
+               
+                   <a href="home.html" target="_blank">Home</a></li>
+                    <a href="sobre.html" target="_blank">Sobre</a></li>
+                    <a href="cursos.html" target="_blank">Cursos</a></li>
+                    <a href="contato.html" target="_blank">Contato</a></li>
+                
+              </div><!--menu-->  
+        </header>
+    
+        <!-- Seção Principal -->
+        <main>
+            <section id="home">
+                <h1>Bem-vindo à Instituição de Ensino</h1>
+                <p>Nossa missão é fornecer educação de qualidade para todos.</p>
+                <img  src="img/senai-cursos-gratuitos.jpg" alt="Imagem da Instituição">
+            </section>
+    
+            <section id="sobre">
+                <h2>Sobre Nós</h2>
+                <p>Estamos comprometidos em oferecer os melhores recursos e tecnologias para nossos alunos.</p>
+                <img src="img/curso.jpg" alt="curso senai">
+            </section>
+    
+            <section id="cursos">
+                <h2>Nossos Cursos</h2>
+                <p>Oferecemos uma variedade de cursos nas áreas de tecnologia, ciência, e artes.</p>
+                <!-- Video do YouTube -->
+                 <div class="video-container">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/LrxBZJenPi0?si=i-qoNa2vJ-I5HYnz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Áudio -->
+                <audio controls class="audio">
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </section>
+    
+            <section class="contato">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para mais informações.</p>
+                <form action="enviar">
+
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" required>
+                   
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="name">Mensagem</label>
+                   <textarea  name="message" id="message" rows="6"></textarea>
+
+                   <button type="submit">Enviar</button>
+                 </form>
+            </section> <!--contato-->
+        </main>
+    
+        <!-- Rodapé -->
+        <footer>
+            <p>&copy; 2024 Instituição de Ensino. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.center{
+   
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+  
+}
+
+header{
+    height: 50px;
+    background-color: rgb(31, 31, 109);
+     
+}
+
+.logo{
+    width: 18em;
+    height: auto;
+}
+
+.menu {
+    padding-top:15px;
+    width: 50%;
+    text-align: right;
+    
+
+}
+
+
+.menu a {
+    color: rgb(253, 248, 248);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px ;
+}
+h1,h2,p{
+    margin-bottom: 15px;
+    display: flex;
+     align-items: center;
+      justify-content: center;
+      margin: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width:45%;
+    height: auto;
+
+}
+.video-container {
+   height: 100%;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.audio{
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+}
+    .contato{
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2{
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 8px;
+    color: #000;
+}
+input, textarea{
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+input:focus, textarea:focus{
+    border-color: #2173b3;
+    outline:none;
+}
+
+button {
+    padding: 12px;
+    background-color: #2173b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: blue;
+    transition: 0.9s;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    padding: 15px 0;
+    margin-top: auto;
+    font-size: 15px;
+}
+
+ table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+ }
+
+ th{
+    background-color: #4ca8af;
+    color: white;
+
+ }
+
+ td{
+    text-align: right;
+ }
+
